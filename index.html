@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        body {
+            background-color: rgb(9, 12, 70);
+            text-align: center;
+        }
+
+        a {
+            color: rgb(225, 0, 250);
+
+        }
+
+        div {
+            background-color: rgb(0, 1, 1);
+            font-variant: small-caps;
+            color: azure;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wikipedia</title>
+</head>
+
+<body>
+    <p
+        style="color: aliceblue;text-transform: uppercase;font-family:cursive;background-color: rgb(1, 9, 15); width: 150px; height: 30px; margin:auto;">
+        wikipedia</p><br>
+    <p
+        style="color: rgb(255, 255, 255);text-transform: uppercase;font-family:cursive;background-color: rgba(233, 219, 17, 0.858); width: 400px; height: 30px; margin:auto;">
+        25 Years of the free encylopedia</p><br><a href="wikipedia.html"> wikipedia  the free encyclopedia</a><br> <br>
+        
+    <img src="https://images.indianexpress.com/2023/01/Wikipedia-New-Interface.jpg" alt="Image" width="600px"
+        height="300px">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkfryGpjR_WAwkwad_vhbNMD6HxQc2FQyMOA&s" alt="Image"
+        height="400px" width="400px"><br>
+    <br>
+    <a style="color: aliceblue; background-color: black;"
+        href="https://wikimediafoundation.org/wikipedia25/wikipedia-mascot/?utm_campaign=eepp&utm_source=eepp&utm_medium=eepp">
+        Unlock birthday surprices on wikipedia</a>
+    <br>
+    <br>
+    <hr>
+    <select id="searchLanguage" name="language"
+        style="background-color: rgb(225, 14, 116); width: 300px; height: 30px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+        <option value="" selected="selected">Select language</option>
+        <option value="af" lang="af">Afrikaans</option>
+        <option value="sq" lang="sq">Shqip</option><!-- Anglisht -->
+        <option value="ar" lang="ar">العربية</option><!-- Al-ʿArabīyah -->
+        <option value="ast" lang="ast">Asturianu</option>
+        <option value="az" lang="az">Azərbaycanca</option>
+        <option value="bg" lang="bg">Български</option><!-- Bǎlgarski -->
+        <option value="nan" lang="nan">閩南語 / Bân-lâm-gú</option><!-- Bân-lâm-gú -->
+        <option value="bn" lang="bn">বাংলা</option><!-- Bangla -->
+        <option value="be" lang="be">Беларуская</option><!-- Belaruskaya -->
+        <option value="ca" lang="ca">Català</option>
+        <option value="cs" lang="cs">Čeština</option>
+        <option value="cy" lang="cy">Cymraeg</option>
+        <option value="da" lang="da">Dansk</option>
+        <option value="de" lang="de">Deutsch</option>
+        <option value="et" lang="et">Eesti</option>
+        <option value="el" lang="el">Ελληνικά</option><!-- Ellīniká -->
+        <option value="en" lang="en">English</option><!-- English -->
+        <option value="es" lang="es">Español</option><!-- Español -->
+        <option value="eo" lang="eo">Esperanto</option>
+        <option value="eu" lang="eu">Euskara</option>
+        <option value="fa" lang="fa">فارسی</option><!-- Fārsi -->
+        <option value="fr" lang="fr">Français</option>
+        <option value="gl" lang="gl">Galego</option><!-- Galego -->
+        <option value="ko" lang="ko">한국어</option><!-- Hangugeo -->
+        <option value="hy" lang="hy">Հայերեն</option><!-- Hayeren -->
+        <option value="hi" lang="hi">हिन्दी</option><!-- Hindī -->
+        <option value="hr" lang="hr">Hrvatski</option>
+        <option value="id" lang="id">Bahasa Indonesia</option><!-- Bahasa Inggris -->
+        <option value="it" lang="it">Italiano</option>
+        <option value="he" lang="he">עברית</option><!-- Ivrit -->
+        <option value="ka" lang="ka">ქართული</option><!-- Kartuli -->
+        <option value="lld" lang="lld">Ladin</option>
+        <option value="la" lang="la">Latina</option>
+        <option value="lv" lang="lv">Latviešu</option>
+        <option value="lt" lang="lt">Lietuvių</option>
+        <option value="hu" lang="hu">Magyar</option>
+        <option value="mk" lang="mk">Македонски</option><!-- Makedonski -->
+        <option value="mg" lang="mg">Malagasy</option>
+        <option value="mr" lang="mr">मराठी</option><!-- Marathi -->
+        <option value="arz" lang="arz">مصرى</option><!-- Maṣrī -->
+        <option value="ms" lang="ms">Bahasa Melayu</option><!-- Bahasa Melayu -->
+        <option value="min" lang="min">Bahaso Minangkabau</option>
+        <option value="my" lang="my">မြန်မာဘာသာ</option><!-- Myanmarsar -->
+        <option value="nl" lang="nl">Nederlands</option>
+        <option value="ja" lang="ja">日本語</option><!-- Nihongo -->
+        <option value="no" lang="nb">Norsk (bokmål)</option>
+        <option value="nn" lang="nn">Norsk (nynorsk)</option>
+        <option value="ce" lang="ce">Нохчийн</option><!-- Noxçiyn -->
+        <option value="uz" lang="uz">Oʻzbekcha / Ўзбекча</option>
+        <option value="pl" lang="pl">Polski</option>
+        <option value="pt" lang="pt">Português</option>
+        <option value="kk" lang="kk">Қазақша / Qazaqşa / قازاقشا</option>
+        <option value="ro" lang="ro">Română</option>
+        <option value="simple" lang="en">Simple English</option>
+        <option value="ceb" lang="ceb">Sinugboanong Binisaya</option>
+        <option value="sk" lang="sk">Slovenčina</option>
+        <option value="sl" lang="sl">Slovenščina</option><!-- Slovenščina -->
+        <option value="sr" lang="sr">Српски / Srpski</option>
+        <option value="sh" lang="sh">Srpskohrvatski / Српскохрватски</option>
+        <option value="fi" lang="fi">Suomi</option>
+        <option value="sv" lang="sv">Svenska</option>
+        <option value="sw" lang="sw">Kiswahili</option>
+        <option value="ta" lang="ta">தமிழ்</option><!-- Tamiḻ -->
+        <option value="tt" lang="tt">Татарча / Tatarça</option>
+        <option value="te" lang="te">తెలుగు</option><!-- Telugu -->
+        <option value="th" lang="th">ภาษาไทย</option><!-- Phasa Thai -->
+        <option value="tg" lang="tg">Тоҷикӣ</option><!-- Tojikī -->
+        <option value="azb" lang="azb">تۆرکجه</option><!-- Türkce -->
+        <option value="tr" lang="tr">Türkçe</option><!-- Türkçe -->
+        <option value="uk" lang="uk">Українська</option><!-- Ukrayins’ka -->
+        <option value="ur" lang="ur">اردو</option><!-- Urdu -->
+        <option value="vi" lang="vi">Tiếng Việt</option>
+        <option value="war" lang="war">Winaray</option>
+        <option value="zh" lang="zh">中文</option><!-- Zhōngwén -->
+        <option value="ru" lang="ru">Русский</option><!-- Russkiy -->
+        <option value="yue" lang="yue">粵語</option>
+    </select><br><br>
+<form>
+    <input type="search" id="search" name="Search" placeholder="Search Anything" size="40">
+    <br> <br> <input type="submit" value="submit" style=" color:white; background-color: blueviolet;">
+    <input type="reset" value="reset" style="background-color: rgba(158, 12, 221, 0.956); color: white;">
+    </form>
+    <hr>
+    <footer>
+        <h1 style="color: aliceblue;">
+            Here some Other Links :-
+        </h1>
+        <div>
+          || <a
+                href="https://donate.wikimedia.org/w/index.php?title=Special:LandingPage&country=IN&uselang=en&wmf_medium=portal&wmf_source=portalFooter&wmf_campaign=portalFooter">You
+                can support our work with a donation</a>||<br><br>
+            || <a href="https://commons.wikimedia.org/wiki/Main_Page">Commons </a>||
+           || <a href="https://www.wikivoyage.org/">Wikioyage </a>||
+            || <a href="https://www.wiktionary.org/">wikionary </a>||
+           || <a href="https://www.wikibooks.org/">wikibooks </a>||
+        || <a href="https://www.wikinews.org/">wikinews </a>||
+          ||  <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">wikidata </a>||
+            || <a href="https://www.wikiversity.org/">wikiversity </a>||
+            || <a href="https://www.wikiquote.org/">wikiquote </a>||
+           || <a href="https://meta.wikimedia.org/wiki/Main_Page">wikimedia </a>||<br><br>
+           || <a href="https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_apps">Downloaad wikipedia for androied or
+                ios </a>||
+                </ul>
+        </div>
+        <hr>
+        <div>
+            <ul></ul>
+      <h style="color: aliceblue;">This page is available under the</h> <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike License </a>
+      . <a href="https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use" >terms of use</a>
+      . <a href="https://foundation.wikimedia.org/wiki/Policy:Privacy_policy">Privacy policy</a>
+   </div>
+    </footer>
+</body>
+
+</html>
